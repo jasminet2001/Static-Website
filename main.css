@@ -1,0 +1,698 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    /* overflow-x: hidden;  */
+    font-family: IRANSansWeb;
+    background: #f1f2f8;
+}
+
+.logo{
+    height: 80px;
+    width: 235px;
+}
+.content1 {
+    float: right;
+    direction: rtl;
+    margin: 20px;
+}
+.content2{
+    float: right;
+    margin: 20px;
+}
+.header{
+    height: fit-content;
+    width: auto;
+    background-color: aqua;
+    position: relative;
+    
+}
+.head-logo{
+    float: left;
+    margin: 20px;
+}
+/* .menubar{
+    display: flex;
+    background-color: #15416e;
+    width: 100%;
+    height: 50px;
+    margin-top: 100px;
+    text-align: right;
+    direction: rtl;
+    /* position: fixed;
+    width: 100%;
+    top: 0; */
+/* } */
+/* .nav-bar > ul > li > a{ */
+    /* position: relative; */
+    /* font-family: IRANSansWeb; */
+    /* text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 700;
+    outline: none;
+    color: rgba(255, 255, 255, 0.8);
+    /* float: auto; */
+    /* padding: 10px;
+} */
+
+/* .nav-bar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}  */
+.container1{
+    display: flex;
+    margin-top: 50px;
+    position: absolute;
+    /* align-items: center; */
+    
+}
+.container1 div{
+    border: 1px white solid;
+    padding: 20px;
+    padding-bottom: 15px;
+    margin: 15px;
+    background-color: white;
+}
+.title1{
+    /* position: absolute; */
+    margin-top: 100px;
+    margin-left: 10px;
+    direction: rtl;
+    text-align: right;
+    color:rgb(51, 51, 51);
+    
+}
+.title2{
+    margin-top: 700px;
+    direction: rtl;
+    text-align: right;
+    color: rgb(51, 51, 51);
+}
+.iconbox1{
+    flex: 1;
+    justify-content: flex-start;
+}
+.iconbox2{
+    flex: 1;
+    justify-content: space-between;
+}
+.iconbox3{
+    flex: 1;
+}
+.iconbox4{
+    flex: 1;
+}
+.ads{
+    position: absolute;
+    margin: 500px 0 0 0; 
+    padding: 0 0 0 0;
+    display: flexbox;
+    justify-content: space-between; 
+}
+/* * {
+    box-sizing: border-box;
+} */
+.container{
+    /* margin: 1200px 0 0 0; */
+    padding: 5% 0px 0px 0px;
+    align-items: center;
+    /* margin: 5%; */
+    
+}  
+.header {
+    text-align: center;
+    padding: 32px;
+}
+  
+.row {
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    padding: 0 15px;
+    justify-content: center;
+}
+.column {
+    -ms-flex: 25%; 
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 15px;
+   justify-content: center;
+}
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    height: 193px;
+}
+.middle{
+    text-align: center;
+    direction: rtl;
+    margin-top: 5%;
+    width: 100%;
+    height: 292px;
+    color: white;
+    font-size: large;
+    background-image: url(http://st3.ir/frontend/assets/images/parallax/bg-parallax5.png);
+} 
+.middle p{
+    padding: 10%;
+} 
+.title3{
+    text-align: right;
+    direction: rtl;
+    color: rgb(51, 51, 51);
+    margin-top: 2%;
+}
+.container2 img{
+    padding:15px;
+    width: 330px;
+    height: 250px;
+}
+.container2 div div{
+    margin: 40px;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    direction: rtl;
+}
+.container3{
+    background-color: #20242e;
+    width: 100%;
+    height: 438px;
+    padding: 50px 0 0;
+    margin-top: 30px;
+    display: flex;
+}
+.container3 div{
+    height: 438px;
+    padding: 20px;
+    /* why it goes to shit when im aligning? */
+    /* width: 500px; */
+    color: azure;
+    text-align: right;
+    direction: rtl;
+    font-size: 100%;
+    font-weight: inherit;
+    font-style: inherit;
+    z-index: 1;
+}
+.map{
+    display: none;
+}
+footer{
+    width:100%;
+    height:150px;
+    bottom:0;
+    left:0;
+    background: #213b55;
+    color: white;
+    /* margin-top: 30%; */
+}
+footer p{
+    text-align: center;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+.social-icons a{
+    padding: 1%;
+}
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-telegram{
+    background: rgb(59, 144, 209);
+    color: white;
+    width: fit-content;
+    height: 50px;
+    padding: 15px;
+}
+/* .container5 list1 ul li{
+    width: 50%;
+} */
+/*
+.container5 list1 ul li:before{
+    content: "\e080";
+    font-family: 'Glyphicons Halflings';
+    font-size: 9px;
+    float: left;
+    margin-top: 4px;
+    margin-left: -17px;
+    color: rgb(7, 7, 7);
+}   */
+.container5{
+    text-align: right;
+    direction: rtl;
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    padding-top: 35px;
+    /* margin-top: 50%; */
+    bottom:0;
+    background: #15416e;
+    color: white;
+}
+.container5 div{
+    padding: 35px;
+    /* why it goes to shit when im aligning? */
+    /* width: 500px; */
+    text-align: right;
+    direction: rtl;
+    font-size: 100%;
+    font-weight: inherit;
+    font-style: inherit;
+    z-index: 1;
+}
+.container5 list1{
+    display: flex;
+}
+.container5 list1 ul li{
+    padding-top: 3%;
+}
+.container5 list2 ul li{
+    padding: 35px;
+}
+/* .bi::before {
+  display: inline-block;
+  content: "";
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='%23333' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/></svg>");
+  background-repeat: no-repeat;
+  background-size: 1rem 1rem;
+} */
+/* .glyphicon glyphicon-earphone{
+    height: fit-content;
+    width: fit-content;
+    color: green;
+} */
+.search-box button{
+    color: #ffffff;
+    background: #18ba60;
+    border-color: #18ba60;
+    margin-top: 20px;
+}
+.search-box input{
+    width: 370px;
+    height: 45px;
+}
+.owl-carousel div{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    width: fit-content;
+    height: 300px;
+    justify-content: space-between;
+    
+}
+.owl-carousel div img{
+    width: 270px;
+    height: 185px;
+    margin: 5px;
+}
+.topnav {
+    overflow: hidden;
+    direction: rtl;
+    text-align: right;
+    /* display: flex; */
+    height: fit-content;
+    background-color: #15416e;
+    width: 100%;
+    margin-top: 100px;
+  }
+  
+  .topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+.topnav .icon {
+    display: none;
+}
+#myBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgba(19, 26, 112, 0.753);
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 10px;
+  }
+  
+#myBtn:hover {
+    background-color: rgb(3, 172, 12);
+}
+/* responsive */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: left;
+        display: block;
+        padding-top: 0%;
+    }  
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: right;
+    }
+    .container1{
+        display: flex;
+        margin: 50px;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .container1 div{
+        border: 1px white solid;
+        padding: 20px;
+        padding-bottom: 15px;
+        margin: 15px;}
+    .container1 div img{
+        margin-left: 17%;
+        
+    }
+    .ads{
+        position: absolute;
+        margin-top: 1350px; 
+        padding: 5px;
+        display: flex;
+        justify-content: space-between; 
+        flex-direction: column;
+        width: fit-content;
+        
+    }    
+    .title1{
+        /* position: absolute; */
+        margin-top: 100px;
+        margin-left: 10px;
+        direction: rtl;
+        text-align: right;
+        color:rgb(51, 51, 51);
+        
+    }
+    .title2{
+        margin-top: 1600px;
+        direction: rtl;
+        text-align: right;
+        color: rgb(51, 51, 51);
+        display: flex;
+    }
+    .title2 a button{
+        width: 200px;
+        height: fit-content;
+        padding: 10px;
+    }
+    .iconbox1{
+        flex: 1;
+        justify-content: flex-start;
+    }
+    .iconbox2{
+        flex: 1;
+        justify-content: space-between;
+    }
+    .iconbox3{
+        flex: 1;
+    }
+    .iconbox4{
+        flex: 1;
+    }
+    .container{
+        /* margin: 1200px 0 0 0; */
+        padding: 5% 0px 0px 0px;
+        align-items: center;
+        /* margin: 5%; */
+        display:flex;
+        flex-direction: column;
+        
+    }  
+    .header {
+        text-align: center;
+        padding: 32px;
+    }
+      
+    .row {
+        display: flex;
+        padding: 0 15px;
+        justify-content: center;
+    }
+    .column {
+        /* -ms-flex: 25%; 
+        flex: 25%;
+        max-width: 25%; */
+        padding: 0 15px;
+       justify-content: center;
+    }
+      
+    .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+        height: 193px;
+    }
+    .middle{
+        text-align: center;
+        direction: rtl;
+        margin-top: 5%;
+        width: 100%;
+        height: 292px;
+        color: white;
+        font-size: large;
+        background-image: url(http://st3.ir/frontend/assets/images/parallax/bg-parallax5.png);
+    } 
+    .middle p{
+        padding: 15%;
+    } 
+    .title3{
+        text-align: right;
+        direction: rtl;
+        color: rgb(51, 51, 51);
+        margin-top: 2%;
+        display: flex;
+    }
+    .title3 a button{
+        width: 200px;
+    }
+    .title3 a {
+        padding: 10px;
+    }
+    .container2 img{
+        padding:15px;
+        width: 330px;
+        height: 250px;
+    }
+    .container2 div div{
+        margin: 40px;
+    }
+    .container2{
+        display: flex;
+        justify-content: space-between;
+        text-align: right;
+        direction: rtl;
+        
+    }
+    .container3{
+        background-color: #20242e;
+        width: 100%;
+        height: 500px;
+        padding: 20px 0 0;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .video{
+        display: none;
+    }
+    .map{
+
+    }
+    .title4{
+        text-align: right;
+        direction: right;
+        margin: 5px;
+    }
+    footer{
+        width:100%;
+        height:150px;
+        bottom:0;
+        left:0;
+        background: #213b55;
+        color: white;
+    }
+    footer p{
+        text-align: center;
+        padding: 5%;
+    }
+    .social-icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 2%;
+    }
+    .fa-google {
+        background: #dd4b39;
+        color: white;
+
+    }
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+
+    }
+      
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+
+    }
+    .fa {
+        padding: 20px;
+        font-size: 20px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        text-decoration: none;
+        /* margin: 5px 2px; */
+    }
+      
+    .fa:hover {
+        opacity: 0.7;
+    }
+    .fa-telegram{
+        background: rgb(59, 144, 209);
+        color: white;
+        padding: 5px;
+        margin: -0.5%;
+    }
+    .container5{
+        text-align: right;
+        direction: rtl;
+        width: 100%;
+        height: 270px;
+        padding-top: 35px;
+        /* margin-top: 50%;  */
+        bottom:0;
+        background: #15416e;
+        color: white;
+        display: flex;
+    }
+    .container5 div{
+        padding: 10px;
+        text-align: right;
+        direction: rtl;
+        font-size: 65%;
+        font-weight: inherit;
+        font-style: inherit;
+        z-index: 1;
+    }
+    .search-box button{
+        color: #ffffff;
+        background: #18ba60;
+        border-color: #18ba60;
+        margin-top: 20px;
+        height: 50px;
+        width: 50px;
+        font-size: 15px;
+        padding: 5px;
+
+    }
+    .search-box input{
+        width: 50px;
+        height: 45px;
+    } 
+    .owl-carousel div{
+        display: flex;
+        padding: 5px;
+        flex-wrap: wrap;
+        width: fit-content;
+        height: fit-content;
+        justify-content: space-between; 
+    }
+    .owl-carousel div img{
+        width: 200px;
+        height: 200px;
+        margin: 5px;
+    }
+    #myBtn {
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        background-color: rgba(19, 26, 112, 0.753);
+        color: white;
+        cursor: pointer;
+        padding: 8px;
+        border-radius: 10px;
+      }
+      
+    #myBtn:hover {
+        background-color: rgb(3, 172, 12);
+    }
+}
