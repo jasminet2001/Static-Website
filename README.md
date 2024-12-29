@@ -1,3 +1,3 @@
 # Web-Design
 Hello!
-This is where I upload my website designs.
+This is my first static website project. I created a simple website using HTML and CSS.
